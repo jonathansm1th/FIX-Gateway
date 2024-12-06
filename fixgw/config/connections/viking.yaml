@@ -1,0 +1,9 @@
+megasquirt:
+  load: VIKING
+  module: fixgw.plugins.viking
+  interface: socketcan
+  channel: can11
+  items:
+    H2OT1: H2OT1
+    MAP1: MAP1
+    THR1: THR1
